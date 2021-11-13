@@ -264,8 +264,9 @@ var jsondata={
     }
     ]
     }
-    
+
     for (var i = 0; i <jsondata.articles.length ;i++) {
         console.log(jsondata.articles[i].source.name ); 
+        console.log(jsondata.articles[i].author )
     }
     
